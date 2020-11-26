@@ -1,0 +1,51 @@
+   {/* <input type="text"  placeholder="Search" onChange={event => 
+              { setTitle(event.target.value)
+                setButtonState("false")
+              }   
+            }/> */}
+
+
+               {/*   <select class="browser-default">
+             <option value = "types" onClick={()=>setSelectState("")}>Types</option>
+               <option value = "lebanese" onClick={(event)=>setSelectState(event.target.value)}>Lebanese</option>
+               <option value = "italian" onClick={(event)=>setSelectState(event.target.value)}>Italian</option>
+               <option value = "american" onClick={(event)=>setSelectState(event.target.value)}>American</option>
+               <option value = "japanese" onClick={(event)=>setSelectState(event.target.value)}>Japanese</option>
+               </select> */}
+
+
+              {/*  <button value="true" onClick={event =>
+               { console.log(event.target.value)
+                setButtonState(event.target.value)
+               }
+                }>Search</button> */}
+
+
+
+    <Card onClick={() => setModalOpen(true)}>
+      <CardContent>
+       {restaurant.name}
+      </CardContent>
+      <CardActions>
+       <Button onClick={()=>(restInfo(restaurant,Date().toLocaleString()))}>Save</Button>
+      </CardActions>
+    </Card>
+
+
+    <div className="box" onClick={() => setModalOpen(true)}>
+            {restaurant.name}
+            <button onClick={()=>(restInfo(restaurant,Date().toLocaleString()))}>Save</button>
+        </div>
+
+
+        <div className="box" onClick={() => setModalOpen(true)}>
+                {restaurant.name}
+                <button onClick={()=>(restInfo(restaurant,Date().toLocaleString()))}>Save</button>
+                </div>
+
+
+                 <h2>Modal Title</h2>
+    <p>Modal Body</p>
+    <button onClick={() => setModalOpen(false)}>
+      Close
+    </button>

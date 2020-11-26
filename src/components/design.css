@@ -1,0 +1,96 @@
+
+.flex-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.blueArea{
+background-color:blue;
+padding:10px;
+}
+.text1{
+    background-color:white;
+    width:500px;
+    margin:10px !important;
+}
+.text2{
+    background-color:white;
+    width:300px !important;
+    margin:10px !important;
+}
+.button{
+    background-color:orange !important;
+    color:white !important;
+    width:150px !important;
+    margin:10px !important;
+    height:58px !important;
+}
+.header{
+    background-color:rgb(197, 195, 195);
+    padding:20px;
+}
+ul{
+    padding:0;
+    margin:0;
+    display:flex;
+    list-style:none;
+}
+a{
+text-decoration:none;
+color:black;
+}
+#page2{
+    margin-left:300px;
+}
+.pagination{
+    position:absolute;
+right:50%;
+}
+.page-link{
+    color:blue;
+    border:1px solid gray;
+    padding:5px;
+}
+.card{
+    flex-basis:20%;
+    margin:69px;
+     width:200px;
+    height:200px; 
+}
+.cardNew{
+    height:275px;
+}
+.imgHolder{
+background-color:gray;
+width:160px;
+height:140px;
+}
+.name{
+   margin-top:5px;
+   background-color:gray;
+   color:white;
+   width:200px;
+   text-align:center;
+}
+i{
+    color:orange;
+}
+.content{
+    display:flex;
+}
+.imgHolder2{
+    background-color:gray;
+    width:400px;
+    height:350px;
+}
+.field{
+    background-color:white;
+    color:black;
+    border-radius:5px;
+    width:300px;
+    margin:5px;
+    padding:10px;
+}
+.flexed{
+    display:flex;
+}
